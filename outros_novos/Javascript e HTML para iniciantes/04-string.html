@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Manipulando strings</title>
+    </head>
+    <body>
+
+        <input type="text" placeholder="Informe seu nome" name="nome">
+        <input type="text" placeholder="Informe seu sobrenome" name="sobrenome">
+
+
+        <button onclick="minhaFuncao()">CLIQUE-ME</button>
+
+        <script>
+
+            function minhaFuncao(){
+
+                //var nome = document.querySelector('#nome').value;
+
+                var nome = document.querySelector("input[name='nome']").value;
+                var sobrenome = document.querySelector("input[name='sobrenome']").value;
+
+                //alert("Nome: "+nome+" Sobrenome: "+sobrenome);
+                
+                //outra forma: tamplate string;
+                alert(`Nome: ${nome} - Sobrenome: ${sobrenome}`);
+            }
+            
+        </script>
+    </body>
+</html>

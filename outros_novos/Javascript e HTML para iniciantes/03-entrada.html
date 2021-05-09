@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Botão</title>
+    </head>
+    <body>
+
+        <input type="text" placeholder="Informe um texto" id="texto" class="textocss">
+
+
+        <button onclick="minhaFuncao()">CLIQUE-ME</button>
+
+        <script>
+            //função normal, simples!
+            function minhaFuncao(){
+                
+                //pegou o valor pelo id 'texto' e armazenou na variável; depois com classe;
+                //var texto = document.querySelector('#texto').value;
+                var texto = document.querySelector('.textocss').value;
+
+                alert(texto);
+            }
+            //função anónima!
+            /*
+            var minhaFuncao = function(){
+                alert('ATENÇÃO VIRUS NO SEU COMPUTADOR');
+            };
+            */
+        </script>
+    </body>
+</html>
