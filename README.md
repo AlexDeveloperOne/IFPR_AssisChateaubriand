@@ -9,4 +9,5 @@
 2. Reconhecimento de Padrões.
 3. Abstração.
 4. Algoritimos.
+  4.1 Entrada, processamento e saída;
 
